@@ -17,8 +17,8 @@ modules:
     build-commands:
       - mkdir -p bin share/{applications,icons/hicolor/256x256/apps}
       - install -D QtTermTCP /app/bin/QtTermTCP
-      - install -Dm 644 net.g8bpq.qttermtcp.desktop share/applications/net.g8bpq.qttermtcp.desktop
-      - install -Dm 644 net.g8bpq.qttermtcp.png share/icons/hicolor/256x256/apps/net.g8bpq.qttermtcp.png
+      - install -Dm 644 net.g8bpq.qttermtcp.desktop /app/share/applications/net.g8bpq.qttermtcp.desktop
+      - install -Dm 644 net.g8bpq.qttermtcp.png /app/share/icons/hicolor/256x256/apps/net.g8bpq.qttermtcp.png
     sources:
       - type: archive
         url: http://www.cantab.net/users/john.wiseman/Downloads/QtTermSource.zip
