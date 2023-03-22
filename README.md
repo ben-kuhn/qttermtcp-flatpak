@@ -12,19 +12,36 @@ build and install this flatpak you will need to do the following:
 2.  Install flatpak-builder.  Use the same repository you used to install flatpak.
 3.  Install the KDE SDK.
 
-```install org.kde.Sdk//5.15-22.08```
+```sh
+install org.kde.Sdk//5.15-22.08
+```
+
 4.  Install the KDE platform
 
-```flatpak install org.kde.Platform//5.15-22.08```
+```sh
+flatpak install org.kde.Platform//5.15-22.08
+```
+
 5.  Clone the repo
 
-```git clone https://github.com/ben-kuhn/qttermtcp-flatpak.git``
+```sh
+git clone https://github.com/ben-kuhn/qttermtcp-flatpak.git
+```
+
 6.  Enter the directory
 
-```cd qttermtcp-flatpak```
+```sh
+cd qttermtcp-flatpak
+```
+
 7.  Build and install the flatpak
 
-```flatpak-builder --install --user --force-clean build-dir net.g8bpq.qttermtcp.yaml```
+```sh
+flatpak-builder --install --user --force-clean build-dir net.g8bpq.qttermtcp.yaml
+```
+
 8.  Run the flatpak
 
-```net.g8bpq.qttermtcp```
+```sh
+net.g8bpq.qttermtcp
+```
