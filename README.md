@@ -13,7 +13,7 @@ build and install this flatpak you will need to do the following:
 3.  Install the KDE SDK.
 
 ```sh
-install org.kde.Sdk//5.15-22.08
+flatpak install org.kde.Sdk//5.15-22.08
 ```
 
 4.  Install the KDE platform
