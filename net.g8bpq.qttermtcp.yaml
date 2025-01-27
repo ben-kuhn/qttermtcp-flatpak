@@ -21,8 +21,8 @@ modules:
       - install -Dm 644 net.g8bpq.qttermtcp.png /app/share/icons/hicolor/256x256/apps/net.g8bpq.qttermtcp.png
     sources:
       - type: archive
-        url: http://www.cantab.net/users/john.wiseman/Downloads/QtTermSource.zip
-        sha256: 3e447ce2447da911457ff37fa4492ae93b623a284718114541a41d573eb499d9
+        url: https://www.cantab.net/users/john.wiseman/Downloads/QtTermTCPSource.zip
+        sha256: 41189a0debeb3927efb1aedb50a0dcf4888c5fe5ee1598eabadc23ef54a0196e
         x-checker-data:
           is-main-source: true
       - type: file
